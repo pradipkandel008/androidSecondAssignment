@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#9A880A4A">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="question 1 BMI"
+        android:id="@+id/q1"
+        android:textColor="#09066D"
+        android:background="#850CE9E2"
+        android:layout_margin="16dp"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="question 2 Num to Str"
+        android:id="@+id/q2"
+        android:textColor="#09066D"
+        android:background="#850CE9E2"
+        android:layout_margin="16dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@id/q1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="question 3 Tax"
+        android:id="@+id/q3"
+        android:textColor="#09066D"
+        android:background="#850CE9E2"
+        android:layout_margin="16dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@id/q2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="question 4 design"
+        android:id="@+id/q4"
+        android:textColor="#09066D"
+        android:background="#850CE9E2"
+        android:layout_margin="16dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@id/q3"/>
+</RelativeLayout>
